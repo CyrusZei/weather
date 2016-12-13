@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router';
+import {Link, IndexLink} from 'react-router';
 
 var Navbar = React.createClass({
 
@@ -7,9 +7,9 @@ var Navbar = React.createClass({
     return(
       <div>
           <h3>Navbar Component</h3>
-          <Link to='/'>Get Weather</Link>
-          <Link to='/about'>About</Link>
-          <Link to='/examples'>Examples</Link>
+          <IndexLink to='/' activeClassName='active'>Get Weather</IndexLink>
+          <IndexLink to='/about'  activeClassName='active'>About</IndexLink>
+          <IndexLink to='/examples'  activeClassName='active'>Examples</IndexLink>
       </div>
 
     );
