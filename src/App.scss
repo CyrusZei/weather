@@ -1,6 +1,11 @@
+@import './scss/theme1';
+
+$space-large: 2.5rem;
+
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -15,6 +20,7 @@
 }
 body {
   div {
+    margin-top: $space-large;
     background-color: #FF0FFF;
   }
 
