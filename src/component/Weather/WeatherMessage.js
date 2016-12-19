@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 
 var WeatherMessage = React.createClass({
+
   render: function(){
+    var {temp, location} = this.props;
     return(
       <div>
-        This is a message, yay
+        <h3>its is {temp} in {location}</h3>
       </div>
     );
   }

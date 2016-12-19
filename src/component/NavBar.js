@@ -8,8 +8,8 @@ var Navbar = React.createClass({
       <div>
           <h3>Navbar Component</h3>
           <IndexLink to='/' activeClassName='active'>Get Weather</IndexLink>
-          <IndexLink to='/about'  activeClassName='active'>About</IndexLink>
-          <IndexLink to='/examples'  activeClassName='active'>Examples</IndexLink>
+          <Link to='/about'  activeClassName='active'>About</Link>
+          <Link to='/examples'  activeClassName='active'>Examples</Link>
       </div>
 
     );
